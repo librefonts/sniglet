@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Sniglet-Regular.ttf.ttx, Sniglet-ExtraBold.ttf.ttx, src/Sniglet-Regular.otf.ttx,
+  src/Sniglet-ExtraBold.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
